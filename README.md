@@ -1,4 +1,4 @@
-# Skyline Realty – Next.js demo
+# 4Lads Properties - Real Estate in Karachi – Next.js demo
 ```
 npm install
 npm run dev     # http://localhost:3000
