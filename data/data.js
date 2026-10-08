@@ -1,0 +1,223 @@
+// Media: put files in /public and reference them from the root, e.g.
+//   images: ["/images/properties/1-1.jpg", "/images/properties/1-2.jpg"],
+//   video: "/videos/1-tour.mp4",
+// Both are optional; a gradient placeholder shows when there are no images.
+export const agency = {
+  name: "4lads Properties",
+  tagline: "Your Trusted Partner in Real Estate",
+  phone: "+92 300 0883184",
+  whatsapp: "923000883184",
+  email: "arsalanbaryar5@gmail.com",
+  address:
+    "Shop no 22, off jinnah avenue, phase 1 scheme 33 Sohni Resorts, Karachi, 75700",
+};
+
+export const stats = [
+  { value: 850, suffix: "+", label: "Properties sold" },
+  { value: 42, prefix: "PKR ", suffix: "B", label: "Total sales value" },
+  { value: 15, suffix: "+", label: "Years experience" },
+  { value: 1200, suffix: "+", label: "Happy clients" },
+];
+
+export const properties = [
+  {
+    id: 1,
+    title: "Modern 5-Bed Villa",
+    price: 69500000,
+    area: "Askari 6 - SUH",
+    city: "Karachi",
+    type: "House",
+    purpose: "sale",
+    beds: 5,
+    baths: 5,
+    size: "375 Yards",
+    hue: 210,
+    images: ["/images/properties/property_askariVI.png"],
+    features: [
+      "5 Bedrooms with attached baths",
+      "Elegant powder room",
+      "Modern kitchen with quality fittings",
+      "Servant quarter",
+      "Wide layout & airy rooms",
+      "Peaceful, secure surroundings",
+    ],
+    description:
+      "A beautifully maintained, spacious home in a prime Askari location — ideal for comfortable family living. Perfect for families looking for space, comfort, and premium lifestyle.",
+  },
+  {
+    id: 2,
+    title: "Luxury Sea-View Apartment",
+    price: 52000000,
+    area: "Clifton Block 4",
+    city: "Karachi",
+    type: "Apartment",
+    purpose: "sale",
+    beds: 3,
+    baths: 3,
+    size: "2,100 sq ft",
+    hue: 190,
+    features: ["Sea view", "Gym access", "Backup power", "Covered parking"],
+    images: [""],
+    description:
+      "High-floor apartment with panoramic views, finished with premium fittings.",
+  },
+  {
+    id: 3,
+    title: "Corner Residential Plot",
+    price: 34000000,
+    area: "Bahria Town",
+    city: "Karachi",
+    type: "Plot",
+    purpose: "sale",
+    beds: 0,
+    baths: 0,
+    size: "250 sq yd",
+    hue: 130,
+    features: ["Corner plot", "Possession ready", "Near main boulevard"],
+    images: [""],
+    description:
+      "Prime corner plot in a developed block, ideal for building your dream home.",
+  },
+  {
+    id: 4,
+    title: "Furnished 2-Bed Flat",
+    price: 120000,
+    area: "Gulshan-e-Iqbal",
+    city: "Karachi",
+    type: "Apartment",
+    purpose: "rent",
+    beds: 2,
+    baths: 2,
+    size: "1,100 sq ft",
+    hue: 30,
+    features: ["Fully furnished", "Lift", "Near markets"],
+    images: [""],
+    description: "Move-in ready flat available on a monthly lease.",
+  },
+  {
+    id: 5,
+    title: "Commercial Shop, Main Road",
+    price: 68000000,
+    area: "Tariq Road",
+    city: "Karachi",
+    type: "Commercial",
+    purpose: "sale",
+    beds: 0,
+    baths: 1,
+    size: "800 sq ft",
+    hue: 280,
+    features: ["High footfall", "Ground floor", "Rented out"],
+    images: [""],
+    description:
+      "Ground-floor shop on a busy road with a reliable rental history.",
+  },
+  {
+    id: 6,
+    title: "Family Bungalow",
+    price: 110000000,
+    area: "DHA Phase 6",
+    city: "Karachi",
+    type: "House",
+    purpose: "sold",
+    beds: 5,
+    baths: 6,
+    size: "1,000 sq yd",
+    hue: 340,
+    features: ["Sold in 21 days"],
+    description: "Sold within three weeks of listing at the asking price.",
+    images: [""],
+    days: 21,
+  },
+  {
+    id: 7,
+    title: "Penthouse Apartment",
+    price: 95000000,
+    area: "Clifton Block 9",
+    city: "Karachi",
+    type: "Apartment",
+    purpose: "sold",
+    beds: 4,
+    baths: 4,
+    size: "3,000 sq ft",
+    hue: 250,
+    features: ["Sold in 34 days"],
+    images: [""],
+    description: "A record sale for the building.",
+    days: 34,
+  },
+  {
+    id: 8,
+    title: "Investment Plot",
+    price: 21000000,
+    area: "Gadap Town",
+    city: "Karachi",
+    type: "Plot",
+    purpose: "sold",
+    beds: 0,
+    baths: 0,
+    size: "400 sq yd",
+    hue: 90,
+    features: ["Sold in 12 days"],
+    images: [""],
+    description: "Sold to an overseas investor.",
+    days: 12,
+  },
+  {
+    id: 9,
+    title: "Townhouse with Terrace",
+    price: 38000000,
+    area: "North Nazimabad",
+    city: "Karachi",
+    type: "House",
+    purpose: "sold",
+    beds: 3,
+    baths: 3,
+    size: "240 sq yd",
+    hue: 15,
+    features: ["Sold in 27 days"],
+    images: [""],
+    description: "Well-kept townhouse sold to a young family.",
+    days: 27,
+  },
+];
+
+export const services = [
+  { icon: "🏡", title: "Buy", text: "Verified listings and honest guidance." },
+  { icon: "💼", title: "Sell", text: "Smart pricing and wide exposure." },
+  { icon: "🔑", title: "Rent & Manage", text: "Tenant sourcing and upkeep." },
+  {
+    icon: "⚖️",
+    title: "Valuation & Legal",
+    text: "Clear paperwork, fair valuation.",
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Ayesha Khan",
+    note: "Bought a villa in Askari vI",
+    quote:
+      "They found us the right home in two weeks and handled every document.",
+  },
+  {
+    name: "Omar Siddiqui",
+    note: "Sold an apartment",
+    quote: "Sold above asking price. Communication was excellent throughout.",
+  },
+  {
+    name: "Sara Ahmed",
+    note: "Overseas investor",
+    quote:
+      "I invested from abroad and never felt uncertain. Fully transparent.",
+  },
+];
+
+export const team = [
+  { name: "Arsalan Baryar", role: "Founder & CEO" },
+  { name: "Mariam Qureshi", role: "Senior Sales Advisor" },
+  { name: "Bilal Sheikh", role: "Commercial Specialist" },
+  { name: "Nida Farooq", role: "Rentals Manager" },
+];
+
+export const fmt = (n, purpose) =>
+  "PKR " + n.toLocaleString("en-PK") + (purpose === "rent" ? " / mo" : "");
