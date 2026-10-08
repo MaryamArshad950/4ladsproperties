@@ -214,9 +214,9 @@ export const testimonials = [
 
 export const team = [
   { name: "Arsalan Baryar", role: "Founder & CEO" },
-  { name: "Mariam Qureshi", role: "Senior Sales Advisor" },
-  { name: "Bilal Sheikh", role: "Commercial Specialist" },
-  { name: "Nida Farooq", role: "Rentals Manager" },
+  { name: "B", role: "Senior Sales Advisor" },
+  { name: "C", role: "Commercial Specialist" },
+  { name: "D", role: "Rentals Manager" },
 ];
 
 export const fmt = (n, purpose) =>
