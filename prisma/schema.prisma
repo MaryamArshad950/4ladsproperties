@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Purpose {
+  sale
+  rent
+  sold
+}
+
+model Property {
+  id          Int      @id @default(autoincrement())
+  title       String
+  price       Int
+  area        String
+  city        String
+  type        String
+  purpose     Purpose
+  beds        Int      @default(0)
+  baths       Int      @default(0)
+  size        String
+  hue         Int      @default(210)
+  features    String[]
+  description String
+  images      String[]
+  video       String?
+  days        Int?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([purpose, type])
+  @@index([area])
+}
+
+model TeamMember {
+  id   Int    @id @default(autoincrement())
+  name String
+  role String
+  sort Int    @default(0)
+}
+
+model Testimonial {
+  id    Int    @id @default(autoincrement())
+  name  String
+  note  String
+  quote String
+}
