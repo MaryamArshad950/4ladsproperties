@@ -3,7 +3,7 @@ export const properties: any[] = [
   {
     title: "Modern 5-Bed Villa",
     price: 69500000,
-    area: "Askari VI - SUH",
+    area: "Askari V & VI",
     city: "Karachi",
     type: "House",
     purpose: "sale",
@@ -22,24 +22,6 @@ export const properties: any[] = [
     description:
       "A beautifully maintained, spacious home in a prime Askari location — ideal for comfortable family living. Perfect for families looking for space, comfort, and premium lifestyle.",
     images: ["/images/properties/property_askariVI.png"],
-    video: null,
-    days: null,
-  },
-  {
-    title: "Luxury Sea-View Apartment",
-    price: 52000000,
-    area: "Falcon Complex Malir",
-    city: "Karachi",
-    type: "Apartment",
-    purpose: "sale",
-    beds: 3,
-    baths: 3,
-    size: "2,100 sq ft",
-    hue: 190,
-    features: ["Sea view", "Gym access", "Backup power", "Covered parking"],
-    description:
-      "High-floor apartment with panoramic views, finished with premium fittings.",
-    images: [],
     video: null,
     days: null,
   },

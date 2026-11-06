@@ -6,7 +6,7 @@ import PropertyCard from "../components/PropertyCard";
 import { prisma } from "../lib/prisma";
 import { agency, areas, types, stats, services } from "../data/data";
 
-export const revalidate = 60;
+// export const revalidate = 60;
 
 export default async function Home() {
   const [all, team, testimonials] = await Promise.all([
